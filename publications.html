@@ -1,0 +1,225 @@
+<html>
+    <head>
+        <title>Publications</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="row">
+                <ul class="main-nav">
+                    <li><a href=index.html> Dean Zadok </a></li>
+                    <li class="active"><a href=publications.html> Publications </a></li>
+                    <li><a href=docs/CV.pdf> CV </a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="portfolio">
+            For more details about the following publications, please refer to my
+            <a href=docs/portfolio.pdf> portfolio </a>
+        </div>
+
+        <div class="paper">
+            <div class="paper_title">
+                Explorations and Lessons Learned in Building an Autonomous Formula SAE Car from Simulations
+            </div>
+
+            <div class="paper_publication">
+                SIMULTECH 2019
+            </div>
+
+            <div class="paper_media">
+                <iframe width="512" height="384" src="https://www.youtube.com/embed/2wHz6Jp8lVk"></iframe>
+            </div>
+
+            <div class="paper_link">
+                <div class="paper_icon">
+                    <img src="imgs/paper_icon.png" width="30px">
+                </div>
+                <a href=https://arxiv.org/abs/1905.05940> https://arxiv.org/abs/1905.05940 </a>
+            </div>
+
+            <div class="paper_link">
+                <div class="paper_icon">
+                    <img src="imgs/github_icon.png" width="30px">
+                </div>
+                <a href=https://github.com/FSTDriverless/AirSim> https://github.com/FSTDriverless/AirSim </a>
+            </div>
+            <div class="paper_link">
+                <div class="paper_icon">
+                    <img src="imgs/github_icon.png" width="30px">
+                </div>
+                <a href=https://github.com/FSTDriverless/FSTImplementation> https://github.com/FSTDriverless/FSTImplementation </a>
+            </div>
+
+            <div class="paper_citation">
+                <div class="paper_icon">
+                    <img src="imgs/citation_icon.png" width="30px">
+                </div>
+                <a id="formula_citation_show" onclick="toggle_citation('formula_citation')">Show citation</a>
+                <a id="formula_citation_hide" onclick="toggle_citation('formula_citation')" style="display: none;">Hide citation</a>
+            </div>
+
+            <div class="paper_citation_code" id="formula_citation" style="display: none;">
+                <pre><code>
+@inproceedings{10.5220/0008120604140421,
+    author = {Zadok, Dean and Hirshberg, Tom and Biran, Amir and Radinsky, Kira and Kapoor, Ashish},
+    title = {Explorations and Lessons Learned in Building an Autonomous Formula SAE Car from Simulations},
+    year = {2019},
+    isbn = {9789897583810},
+    publisher = {SCITEPRESS - Science and Technology Publications, Lda},
+    address = {Setubal, PRT},
+    url = {https://doi.org/10.5220/0008120604140421},
+    doi = {10.5220/0008120604140421},
+    booktitle = {Proceedings of the 9th International Conference on Simulation and Modeling Methodologies, Technologies and Applications},
+    pages = {414–421},
+    numpages = {8},
+    keywords = {Autonomous Driving, Deep Neural Networks., Imitation Learning},
+    location = {Prague, Czech Republic},
+    series = {SIMULTECH 2019}
+}
+                </code></pre>
+            </div>
+        </div>
+
+        <div class="paper">
+            <div class="paper_title">
+                Beholder-GAN: Generation and Beautification of Facial Images with Conditioning on Their Beauty Level
+            </div>
+
+            <div class="paper_publication">
+                ICIP 2019
+            </div>
+
+            <div class="paper_media">
+                <div>
+                    <img src="imgs/bg_01.gif" alt="bg_01" width="200"/>   <img src="imgs/bg_02.gif" alt="bg_02" width="200"/>   <img src="imgs/bg_03.gif" alt="bg_03" width="200"/>
+                </div>
+                <div>
+                    <img src="imgs/bg_04.gif" alt="bg_04" width="200"/>   <img src="imgs/bg_05.gif" alt="bg_05" width="200"/>   <img src="imgs/bg_06.gif" alt="bg_06" width="200"/>
+                </div>
+            </div>
+
+            <div class="paper_link">
+                <div class="paper_icon">
+                    <img src="imgs/paper_icon.png" width="30px">
+                </div>
+                <a href=https://arxiv.org/abs/1902.02593> https://arxiv.org/abs/1902.02593 </a>
+            </div>
+
+            <div class="paper_link">
+                <div class="paper_icon">
+                    <img src="imgs/github_icon.png" width="30px">
+                </div>
+                <a href=https://github.com/beholdergan/Beholder-GAN> https://github.com/beholdergan/Beholder-GAN </a>
+            </div>
+
+            <div class="paper_citation">
+                <div class="paper_icon">
+                    <img src="imgs/citation_icon.png" width="30px">
+                </div>
+                <a id="bgan_citation_show" onclick="toggle_citation('bgan_citation')">Show citation</a>
+                <a id="bgan_citation_hide" onclick="toggle_citation('bgan_citation')" style="display: none;">Hide citation</a>
+            </div> 
+
+            <div class="paper_citation_code" id="bgan_citation" style="display: none;">
+                <pre><code>
+@INPROCEEDINGS{8803807,
+    author={N. {Diamant} and D. {Zadok} and C. {Baskin} and E. {Schwartz} and A. M. {Bronstein}},
+    booktitle={2019 IEEE International Conference on Image Processing (ICIP)},
+    title={Beholder-Gan: Generation and Beautification of Facial Images with Conditioning on Their Beauty Level},
+    year={2019},
+    volume={},
+    number={},
+    pages={739-743},
+    keywords={Gallium nitride;Generators;Training;Predictive models;Measurement;Data models;Task analysis;Beautification;Face synthesis;Generative Adversarial Network;GAN;CGAN},
+    doi={10.1109/ICIP.2019.8803807},
+    ISSN={1522-4880},
+    month={Sep.}
+}
+                </code></pre>
+            </div>
+        </div>
+
+        <div class="paper">
+            <div class="paper_title">
+                Affect-based Intrinsic Rewards for Learning General Representations
+            </div>
+
+            <div class="paper_publication">
+                In review
+            </div>
+
+            <div class="paper_media">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jJvSXyegVSM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="paper_link">
+                <div class="paper_icon">
+                    <img src="imgs/paper_icon.png" width="30px">
+                </div>
+                <a href=https://arxiv.org/abs/1912.00403> https://arxiv.org/abs/1912.00403 </a>
+            </div>
+
+            <div class="paper_link">
+                <div class="paper_icon">
+                    <img src="imgs/github_icon.png" width="30px">
+                </div>
+                <a href=https://github.com/microsoft/affect_based_intrinsic_rewards_for_learning_representations> https://github.com/microsoft/affect_based_intrinsic_rewards_for_learning_representations </a>
+            </div>
+
+            <div class="paper_citation">
+                <div class="paper_icon">
+                    <img src="imgs/citation_icon.png" width="30px">
+                </div>
+                <a id="affectbased_citation_show" onclick="toggle_citation('affectbased_citation')">Show citation</a>
+                <a id="affectbased_citation_hide" onclick="toggle_citation('affectbased_citation')" style="display: none;">Hide citation</a>
+            </div>
+
+            <div class="paper_citation_code" id="affectbased_citation" style="display: none;">
+                <pre><code>
+@article{zadok2019affect,
+    title={Affect-based Intrinsic Rewards for Learning General Representations},
+    author={Zadok, Dean and McDuff, Daniel and Kapoor, Ashish},
+    journal={arXiv preprint arXiv:1912.00403},
+    year={2019}
+}
+                </code></pre>
+            </div>
+        </div>
+
+        <div class="contact">
+            <c1>Contact</c1>
+
+            <div class="column_list">
+                <ul class="column_nav">
+                    <li><a href=mailto:danielxp75@gmail.com> Email </a></li>
+                    <li><a href=https://github.com/deanzadok> Github </a></li>
+                    <li><a href=https://www.linkedin.com/in/dean-zadok-36886791> Linkedin </a></li>
+                </ul>
+            </div>
+
+            <div class="copyright">
+                <c2>This site was generated by me :)</c2>
+            </div>
+        </div>
+
+        <script>
+            function toggle_citation(cite_name) {
+                var x = document.getElementById(cite_name);
+                var b_show = document.getElementById(cite_name.concat('_show'));
+                var b_hide = document.getElementById(cite_name.concat('_hide'));
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                    b_show.style.display = "none";
+                    b_hide.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                    b_show.style.display = "block";
+                    b_hide.style.display = "none";
+                }
+            }
+        </script>
+
+    </body>
+</html>
