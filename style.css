@@ -1,7 +1,6 @@
 *
 {
     margin: 0;
-    padding: 0;
 }
 
 /***********************************************************/
@@ -50,6 +49,21 @@ body
 }
 
 /***********************************************************/
+/*                         Footer                          */
+/***********************************************************/
+
+.footer
+{
+    margin-top: 500px;
+    background-color: rgb(40,40,40);
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 32px;
+    width: 100%;
+}
+
+/***********************************************************/
 /*                       index.html                        */
 /***********************************************************/
 
@@ -57,9 +71,9 @@ body
 {
     position: relative;
     color: rgb(40,40,40);
-    margin-left: 100px;
-    margin-top: 100px;
-    width: 1000px;
+    margin-left: 40px;
+    margin-top: 80px;
+    width: 1200px;
 }
 .me_img
 {
@@ -71,14 +85,14 @@ body
 .me_title
 {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     text-align: left;
     margin-left: 320px;
 }
 .me_brief
 {
     color: rgb(40,40,40);
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     margin-top: 20px;
     margin-left: 320px;
@@ -88,77 +102,32 @@ body
 {
     position: relative;
     color: rgb(40,40,40);
-    margin-top: 400px;
-    margin-left: 100px;
-    width: 1000px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    width: 1200px;
 }
 .work_title
 {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 320px;
 }
 .work_explanation
 {
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     margin-top: 20px;
-    margin-left: 105px;
+    margin-left: 325px;
 }
 .work_rl
 {
     margin-top: 20px;
-    position: relative;
+    margin-left: 320px;
     font-size: 15px;
     text-align: center;
     font-style: italic;
-}
-
-.contact
-{
-    background-color: rgb(40,40,40);
-    position: relative;
-    margin-top: 100px;
-}
-c1
-{
-    font-weight: bold;
-    color: white;
-    font-size: 60px;
-    text-align: left;
-    margin-left: 200px;
-}
-.column_list
-{
-    margin: auto;
-}
-.column_nav
-{
-    float: center;
-    list-style: none;
-    margin-top: 20px;
-    margin-left: 200px;
-    line-height: 25px;
-}
-.column_nav li a
-{
-    color: white;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-}
-.copyright
-{
-    margin-top: 25px;
-}
-c2
-{
-    color: white;
-    font-size: 15px;
-    text-align: left;
-    margin-left: 200px;
 }
 
 /***********************************************************/
@@ -174,8 +143,9 @@ c2
 
 .paper
 {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 200px;
+    margin-bottom: 50px;
     width: 1000px;
 }
 .paper_title
@@ -194,7 +164,6 @@ c2
     font-size: 20px;
     text-align: left;
 }
-
 .paper_link
 {
     line-height: 35px;
@@ -205,7 +174,6 @@ c2
     float: left;
     margin-right: 10px;
 }
-
 iframe
 {
     align-content: center;
@@ -214,7 +182,6 @@ iframe
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .paper_citation
 {
     line-height: 35px;
