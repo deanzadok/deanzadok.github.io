@@ -9,12 +9,17 @@
 
 header
 {
+    z-index: 1;
     background-color: rgb(40,40,40);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 35px;
+    width: 100%;
 }
 
 .row
 {
-    max-width: 1600px;
     margin: auto;
 }
 
@@ -136,7 +141,7 @@ body
 
 .portfolio
 {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 200px;
     width: 1000px;
 }
